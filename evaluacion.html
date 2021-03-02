@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="imagenes/logo.png" sizes="30x30">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <title>Proyecto de algoritmia</title>
+    <style>
+        header {
+            background-image: url("./imagenes/fondo.jpg");
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>EVALUACIÓN</h1>
+    </header>
+    <div class="navegacion">
+        <nav>
+            <ul>
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./contenidos.html">CONTENIDOS</a></li>
+                <li><a href="./actividades.html">ACTIVIDADES</a></li>
+                <li><a href="./evaluacion.html">EVALUACIÓN</a></li>
+                <li><a href="./materialComplementario.html">MATERIAL COMPLEMENTARIO</a></li>
+            </ul>
+        </nav>
+        <h2 class="intro">En esta sección podrás evaluar tu conocimiento, al dar click en el botón de
+            <br>
+            calificar podrás ver las respuestas en el fondo de
+            <br>
+            la página</h2>
+        <div class="contenedor2">
+            <div class="contenedor3">
+                <h2>
+                    1. ¿Qué se puede considerar como adjetivo? <select name="opc1" id="opc1">
+                        <option value=1></option>
+                        <option value=2>A. Un dibujo</option>
+                        <option value=3>B. Una cosa</option>
+                        <option value=4>C. Una persona</option>
+                        <option value=5>D. Una cualidad</option>
+                    </select>
+                    <button type="button" onclick="seleccionar1()">Calificar</button>
+                </h2>
+            </div>
+            <br>
+            <div class="contenedor3">
+                <h2>
+                    2. El ejemplo más acertado de un adjetivo es: <select name="opc2" id="opc2">
+                        <option value=6></option>
+                        <option value=7>A. Una casa</option>
+                        <option value=8>B. Ella es bonita</option>
+                        <option value=9>C. Él se llama Eduardo</option>
+                        <option value=10>D. Usted no hace ejercicio</option>
+                    </select>
+                    <button type="button" onclick="seleccionar2()">Calificar</button>
+                    <br>
+                </h2>
+            </div>
+            <br>
+            <div class="contenedor3">
+                <h2>
+                    3. ¿Aparte de los adjetivos qué otro concepto hemos trabajado? <select name="opc3" id="opc3">
+                        <option value=11></option>
+                        <option value=12>A. Algoritmia</option>
+                        <option value=13>B. Los verbos</option>
+                        <option value=14>C. Los sustantivos</option>
+                        <option value=15>D. Ciencias naturales</option>
+                        <br>
+                    </select>
+                    <button type="button" onclick="seleccionar3()">Calificar</button>
+                </h2>
+            </div>
+            <br>
+            <div class="contenedor3">
+                <h2>
+                    4. Si llamas a alguien por su nombre, estás haciendo uso de: <select name="opc4" id="opc4">
+                        <option value=16></option>
+                        <option value=17>A. Un sustantivo</option>
+                        <option value=18>B. Un verbo</option>
+                        <option value=19>C. Un adjetivo</option>
+                        <option value=20>D. Un adverbio</option>
+                        <br>
+                    </select>
+                    <button type="button" onclick="seleccionar4()">Calificar</button>
+                </h2>
+            </div>
+            <br>
+            <div class="contenedor3">
+                <h2>
+                    5. Otro concepto que nos podemos encontrar que se relaciona con los adjetivos y sustantivos es: <select name="opc5" id="opc5">
+                        <option value=21></option>
+                        <option value=22>A. Excel</option>
+                        <option value=23>B. La coma</option>
+                        <option value=24>C. El punto</option>
+                        <option value=25>D. Los verbos</option>
+                        <br>
+                    </select>
+                    <button type="button" onclick="seleccionar5()">Calificar</button>
+                </h2>
+            </div>
+            <br>
+            <div class="contenedor3">
+                <h2>
+                    6. Según tus conocimientos previos, un verbo hace referencia a: <select name="opc6" id="opc6">
+                        <option value=26></option>
+                        <option value=27>A. Una cualidad</option>
+                        <option value=28>B. Una acción</option>
+                        <option value=29>C. Una planeación</option>
+                        <option value=30>D. Una descripción</option>
+                        <br>
+                    </select>
+                    <button type="button" onclick="seleccionar6()">Calificar</button>
+                </h2>
+            </div>
+            <br>
+            <div class="contenedor3">
+                <h2>
+                    7. ¿Cuáles han sido los dos conceptos trabajados en el REDA? <select name="opc7" id="opc7">
+                        <option value=31></option>
+                        <option value=32>A. HTML y CSS</option>
+                        <option value=33>B. Multiplicación y división</option>
+                        <option value=34>C. El adjetivo y el sustantivo</option>
+                        <option value=35>D. El adjetivo y el verbo</option>
+                        <br>
+                    </select>
+                    <button type="button" onclick="seleccionar7()">Calificar</button>
+                </h2>
+            </div>
+            <br>
+            <div class="contenedor3">
+                <h2>
+                    8. Si quieres hablar de las características de alguien estarías haciendo uso de: <select name="opc8" id="opc8">
+                        <option value=36></option>
+                        <option value=37>A. Adjetivos descriptivos</option>
+                        <option value=38>B. Adjetivos superlativos</option>
+                        <option value=39>C. Sustantivos propios</option>
+                        <option value=40>D. Sustantivos comunes</option>
+                        <br>
+                    </select>
+                    <button type="button" onclick="seleccionar8()">Calificar</button>
+                </h2>
+            </div>
+            <br>
+            <div class="contenedor3">
+                <h2>
+                    9. Un sustantivo puede ser:<select name="opc9" id="opc9">
+                        <option value=41></option>
+                        <option value=42>A. Concreto</option>
+                        <option value=43>B. Común</option>
+                        <option value=44>C. Propio</option>
+                        <option value=45>D. Todas las anteriores</option>
+                        <br>
+                    </select>
+                    <button type="button" onclick="seleccionar9()">Calificar</button>
+                </h2>
+            </div>
+            <br>
+            <div class="contenedor3">
+                <h2>
+                    10. Un adjetivo puede ser: <select name="opc10" id="opc10">
+                        <option value=46></option>
+                        <option value=47>A. Calificativos</option>
+                        <option value=48>B. Posesivos</option>
+                        <option value=49>C. Superlativos</option>
+                        <option value=50>D. Todas las anteriores</option>
+                        <br>
+                    </select>
+                    <button type="button" onclick="seleccionar10()">Calificar</button>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <br>
+    <text style="font-size: 26px;font-weight: bold; text-align: center" id="texto">
+        <p id="dm1"></p>
+        <p id="dm2"></p>
+        <p id="dm3"></p>
+        <p id="dm4"></p>
+        <p id="dm5"></p>
+        <p id="dm6"></p>
+        <p id="dm7"></p>
+        <p id="dm8"></p>
+        <p id="dm9"></p>
+        <p id="dm10"></p>
+    </text>
+    <script src="./js/javascript.js"></script>
+</body>
+
+</html>

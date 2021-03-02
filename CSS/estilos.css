@@ -1,0 +1,100 @@
+	* {
+    line-height: 40px
+}
+header {
+    height: 100px;
+    color: white;
+    text-shadow: rgb(200, 200, 200) 2px 2px 5px;
+}
+header h1{
+    text-align: center;
+    padding: 35px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    background: #66C9BD; 
+    color: black;
+}
+
+table {margin: 0 auto; color: white; background-color: #072186;}
+
+
+
+.navegacion nav{
+    height: 100px auto;
+    width: 100%;
+    background: #387493;
+    padding: 20px 0px;
+    text-shadow: rgb(150, 150, 150) 3px 3px 5px;
+}
+
+.navegacion nav > ul > li{
+    display: inline-block;
+
+}
+
+.navegacion nav > ul > li > a{
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;}
+
+.contenedor {
+    padding: 20px 70px;
+    text-align: left;
+    font-size: 25px}
+
+.contenedor2{
+    padding: 2em;
+
+}
+
+.contenedor3{
+    text-align: left;
+    margin: 0 auto;
+    width: 700px;
+    background-color: aqua;
+    padding: 18px;
+    border-radius: 12px;
+    animation-duration: 2s;
+    animation-name: fade_in;
+}
+
+@keyframes fade_in{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.columnasx3{
+    width: 33.333%;
+    float: right;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+}
+a {color:black; font-size: 25px;}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    background-color: yellow; height: 35px; margin: 15px;
+    border-radius: 15px;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+}
+button:hover{
+    font-size: 16px;
+}
+.intro{
+    animation-duration: 2s;
+    animation-name: fade_in;
+    text-align: center;
+}
